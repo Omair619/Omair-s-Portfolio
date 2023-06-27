@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&family=Lato&display=swap');
+
+.container-fluid .navbar-brand{
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Diphylleia', serif;
+}
+
+.nav-item a{
+    font-family: 'Diphylleia', serif;
+}
+
+.navbar-dark .navbar-toggler{
+    border-color: transparent;
+}
+
+.offcanvas-header .btn-close{
+    margin-top: 0rem;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.contain{
+    margin: 0;
+    padding: 0;
+    background-color: #0c3230;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    margin: 20vh auto;
+}
+
+.cover-container{
+    display: flex;
+    align-items: center;
+}
+
+.img-container{
+    width: 30vw;
+    height: 30vw;
+}
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25vw;
+}
+
+.info-1{
+    padding: 5px 20px;
+    color: white;
+}
+
+.info-1 h1{
+    font-family: 'Diphylleia', serif;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.info-1 h3{
+    font-family: 'Diphylleia', serif;
+    font-size: 1.9rem;
+    margin-top: 15px;
+}
+
+.info-1 span{
+    font-family: 'Diphylleia', serif;
+    font-size: 1.2rem;
+}
+
+#cv{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#cv button{
+    font-family: 'Diphylleia', serif;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    color: white;
+    animation: cv-button 0.6s ease-in-out infinite alternate;
+}
+
+@keyframes cv-button {
+    0%{
+        background-color: rgb(12 124 11);
+    }
+    100%{
+        background-color: rgb(74 74 68);
+    }
+}
+
+.skills{
+    background-color: rgb(5 26 26);
+    color: white;
+    font-family: 'Diphylleia', serif;
+}
+
+.skills h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+    font-size: 1.9rem;
+}
+
+.skills-container{
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    margin-bottom: 10vh;
+}
+
+.left{
+    /* background-color: red; */
+    border-right: 1px solid rgba(168, 2, 2, 0.651);
+    width: 45vw;
+}
+
+.left h5{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 0 3vw;
+}
+
+.right{
+    /* background-color: yellow; */
+    width: 45vw;
+    border-left: 1px solid rgba(168, 2, 2, 0.651);
+}
+
+.right h5{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 0 3vw;
+}
+
+
+.logo-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1rem;
+    text-align: center;
+    margin: 5vh 3vw;
+}
+
+.logos img{
+    width: 5vw;
+    height: 5vw;
+}
+
+.projects{
+    background-color: #0c3230;
+    color: white;
+    font-family: 'Diphylleia', serif;
+}
+
+.projects h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+    font-size: 1.9rem;
+}
+
+.projects-container{
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    margin-bottom: 9vh;
+}
+
+.projects-container .left{
+    border-right: 0;
+}
+
+.projects-container .left h5{
+    font-size: 1.2rem;
+}
+
+.projects-container .left p{
+    font-size: 1rem;
+}
+
+.projects-container .right{
+    border-left: 0;
+}
+
+.projects-container .right h5{
+    font-size: 1.2rem;
+}
+
+.projects-container .right p{
+    font-size: 1rem;
+}
+
+.card{
+    background-color: rgb(5 26 26);
+}
+
+.contact{
+    background-color: rgb(5 26 26);
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Diphylleia', serif;
+}
+
+.contact h3{
+    margin-top: 4vh;
+    margin-bottom: 3vh;
+    font-size: 1.9rem;
+}
+
+label{
+    font-size: 1.1rem;
+}
+
+.contact-container{
+    margin-bottom: 5vh;
+}
+
+.contact-container input,textarea{
+    color: white;
+}
+
+.form-control{
+    background-color: rgb(5 26 26);
+    color: white;
+}
+
+footer{
+    font-family: 'Diphylleia', serif;
+}
+
+@media screen and (max-width: 1000px){
+    .intro{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .cover-container{
+        margin-top: 20px;
+    }
+    .img-container{
+        width: 35vw;
+        height: 35vw;
+    }
+    .img-container img{
+        border-radius: 35vw;
+    }
+    .info-1{
+        text-align: center;
+    }
+    .skills-container{
+        flex-direction: column;
+    }
+    .left{
+        width: 90vw;
+        margin: 0 auto;
+        border-right: 0;
+        border-bottom: 1px solid rgba(168, 2, 2, 0.651);
+    }
+    .right{
+        width: 90vw;
+        margin: 0 auto;
+        border-left: 0;
+        border-top: 1px solid rgba(168, 2, 2, 0.651);
+    }
+    .logo-container{
+        flex-wrap: wrap;
+    }
+    .projects-container{
+        flex-direction: column;
+    }
+    .projects-container .left{
+        border-bottom: 0;
+    }
+    .projects-container .right{
+        border-top: 0;
+    }
+}
