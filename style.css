@@ -58,7 +58,7 @@
     color: white;
 }
 
-.info-1 h1{
+.info-1 h1 span{
     font-family: 'Diphylleia', serif;
     font-weight: bolder;
     font-size: 3rem;
