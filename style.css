@@ -17,6 +17,10 @@
     margin-top: 0rem;
 }
 
+.offcanvas-end{
+    opacity: 0.95;
+}
+
 .navbar-toggler:focus{
     box-shadow: none;
 }
@@ -255,6 +259,9 @@ footer{
 }
 
 @media screen and (max-width: 1000px){
+    .offcanvas-end{
+        width: 200px;
+    }
     .intro{
         flex-wrap: wrap;
         justify-content: center;
