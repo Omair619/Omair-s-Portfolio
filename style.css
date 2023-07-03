@@ -243,6 +243,19 @@ label{
 
 .contact-container{
     margin-bottom: 5vh;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.divone{
+    margin: 15px 20px 10px 20px;
+}
+
+.divtwo{
+    margin: 0px 20px 15px 20px;
 }
 
 .contact-container input,textarea{
